@@ -12,6 +12,11 @@ int main() {
   uang = 6000;
   hujan = 1;
   printf("Uang >5000 dan tidak hujan : %d \n", (uang>5000)&&(!hujan));
-
+  
+  uang = 5000;
+  hujan = 0;
+  printf("uang > 5000 dan tidak hujan :%d \n", (uang>5000) || (!hujan));
+  
+  return 0;
 
 }
